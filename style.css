@@ -101,3 +101,39 @@ footer {
     width: 100%;
     bottom: 0;
 }
+
+/* --- Media Queries per il Responsive Design --- */
+
+/* Per tablet e telefoni in orizzontale */
+@media (max-width: 840px) {
+    main {
+        /* Rimuove il max-width e usa solo il padding */
+        max-width: 100%;
+        padding: 20px;
+        box-sizing: border-box; /* Assicura che il padding non rompa il layout */
+    }
+}
+
+/* Per telefoni in verticale */
+@media (max-width: 600px) {
+    header h1 {
+        font-size: 1.8em; /* Riduci il titolo nell'header */
+    }
+    
+    #logo {
+        width: 100px; /* Riduci il logo */
+    }
+
+    .report-list h2 {
+        font-size: 1.5em; /* Riduci i titoli di sezione */
+    }
+
+    /* Rende i pulsanti a larghezza piena per essere cliccati facilmente */
+    .btn, .btn-secondary {
+        display: block; /* Vanno a capo automaticamente */
+        width: 100%;
+        margin-bottom: 10px;
+        margin-right: 0; /* Resetta il margine laterale */
+        box-sizing: border-box; /* Importante per il padding e width 100% */
+    }
+}
