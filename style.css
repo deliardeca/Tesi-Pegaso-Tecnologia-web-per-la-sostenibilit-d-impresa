@@ -1,0 +1,103 @@
+/* Stili generali del corpo della pagina */
+body {
+    font-family: Arial, sans-serif; /* Imposta un font pulito e leggibile */
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Colore di sfondo leggero */
+    color: #333; /* Colore del testo principale */
+}
+
+/* Stili dell'intestazione */
+header {
+    background-color: #000; /* Sfondo nero per l'intestazione */
+    color: #fff; /* Testo bianco */
+    padding: 20px;
+    text-align: center;
+    border-bottom: 4px solid #D40000; /* Bordo rosso Ferrari */
+}
+
+#logo {
+    width: 150px; /* Dimensione del logo */
+    margin-bottom: 10px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em; /* Dimensione del titolo principale */
+}
+
+/* Stili della sezione principale */
+main {
+    padding: 20px;
+    max-width: 800px; /* Larghezza massima per una migliore leggibilità */
+    margin: 0 auto; /* Centra il contenuto */
+}
+
+.report-list h2 {
+    text-align: center;
+    color: #D40000; /* Colore rosso Ferrari per i titoli di sezione */
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.report-item {
+    background-color: #fff; /* Sfondo bianco per gli elementi del report */
+    border: 1px solid #ddd; /* Bordo leggero */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 5px; /* Angoli arrotondati */
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Ombra per un effetto di profondità */
+}
+
+.report-item h3 {
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+/* Stili per il pulsante di download */
+.btn {
+    display: inline-block;
+    background-color: #D40000; /* Colore di sfondo rosso Ferrari */
+    color: #fff; /* Testo bianco */
+    padding: 10px 20px;
+    text-decoration: none; /* Rimuove la sottolineatura del link */
+    border-radius: 5px; /* Angoli arrotondati */
+    font-weight: bold;
+    transition: background-color 0.3s; /* Transizione per l'effetto hover */
+}
+
+.btn:hover {
+    background-color: #A00000; /* Colore più scuro al passaggio del mouse */
+}
+
+/* Stili per la sezione dei download di dettaglio */
+.details-download {
+    margin-top: 20px; /* Aggiunge spazio sopra la sezione dei dettagli */
+    padding-top: 15px;
+    border-top: 1px solid #eee; /* Linea di separazione */
+}
+
+.details-download h4 {
+    margin-bottom: 10px;
+}
+
+/* Stili per i pulsanti secondari */
+.btn-secondary {
+    background-color: #6c757d; /* Colore grigio per i pulsanti secondari */
+    margin-right: 10px; /* Spazio tra i pulsanti */
+}
+
+.btn-secondary:hover {
+    background-color: #5a6268; /* Colore più scuro al passaggio del mouse */
+}
+
+/* Stili del piè di pagina */
+footer {
+    background-color: #000; /* Sfondo nero per il piè di pagina */
+    color: #fff; /* Testo bianco */
+    text-align: center;
+    padding: 10px;
+    position: fixed; /* Fissa il footer in fondo alla pagina */
+    width: 100%;
+    bottom: 0;
+}

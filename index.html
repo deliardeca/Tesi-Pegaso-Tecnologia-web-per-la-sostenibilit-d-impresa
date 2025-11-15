@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<!-- Specifica la lingua del documento per una migliore accessibilità -->
+<html lang="it">
+<head>
+    <!-- Imposta la codifica dei caratteri a UTF-8 per supportare tutti i caratteri speciali -->
+    <meta charset="UTF-8">
+    <!-- Garantisce che la pagina sia responsive e si adatti a diverse dimensioni di schermo -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Titolo della pagina visualizzato nella scheda del browser -->
+    <title>Ferrari - Report di Sostenibilità</title>
+    <!-- Collega il foglio di stile CSS esterno per la formattazione della pagina -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Sezione dell'intestazione della pagina -->
+    <header>
+        <!-- Logo dell'azienda, con un testo alternativo per l'accessibilità -->
+        <img src="https://upload.wikimedia.org/wikipedia/it/5/59/Logo_della_Scuderia_Ferrari_%28vecchio%29.svg" alt="Logo Ferrari" id="logo">
+        <!-- Titolo principale della pagina -->
+        <h1>Report di Sostenibilità</h1>
+    </header>
+
+    <!-- Contenuto principale della pagina -->
+    <main>
+        <!-- Sezione dedicata alla lista dei report disponibili -->
+        <section class="report-list">
+            <!-- Titolo della sezione -->
+            <h2>Scarica i nostri report</h2>
+            <!-- Contenitore per un singolo report -->
+            <div class="report-item">
+                <!-- Titolo del report -->
+                <h3>Report di Sostenibilità 2022</h3>
+                <!-- Breve descrizione del report -->
+                <p>Leggi il nostro ultimo report per scoprire i nostri progressi verso un futuro più sostenibile.</p>
+                <!-- Link per il download del report completo in formato PDF -->
+                <a href="reports/sustainability_report_2022.pdf" class="btn" download>Scarica Report Completo (PDF)</a>
+
+                <!-- Sezione per il download dei dettagli -->
+                <div class="details-download">
+                    <h4>Scarica dettagli per categoria (.txt):</h4>
+                    <a href="reports/decarbonizzazione.txt" class="btn btn-secondary" download>Decarbonizzazione</a>
+                    <a href="reports/economia_circolare.txt" class="btn btn-secondary" download>Economia Circolare</a>
+                    <a href="reports/innovazione_benessere.txt" class="btn btn-secondary" download>Innovazione e Benessere</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Piè di pagina del sito -->
+    <footer>
+        <!-- Informazioni sul copyright -->
+        <p>&copy; 2025 Ferrari S.p.A. - Tutti i diritti riservati.</p>
+        <p>Sviluppato da Vincenzo De Carluccio</p>
+    </footer>
+</body>
+</html>
