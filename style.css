@@ -93,13 +93,16 @@ main {
 
 /* Stili del piè di pagina */
 footer {
-    background-color: #000; /* Sfondo nero per il piè di pagina */
-    color: #fff; /* Testo bianco */
-    text-align: center;
-    padding: 10px;
-    position: fixed; /* Fissa il footer in fondo alla pagina */
-    width: 100%;
-    bottom: 0;
+    background-color: #000; /* o var(--nero-ferrari) se hai usato le variabili */
+    color: #fff; /* o var(--bianco) */
+    text-align: center;
+    padding: 20px; /* Ho aumentato il padding per un look più pulito */
+ 
+    /* Aggiunge spazio tra la fine del contenuto e l'inizio del footer */
+    margin-top: 40px; 
+    
+    /* Le righe 'position: fixed', 'width: 100%' e 'bottom: 0' 
+       SONO STATE RIMOSSE */
 }
 
 /* --- Media Queries per il Responsive Design --- */
